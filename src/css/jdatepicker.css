@@ -1,0 +1,116 @@
+.jdatepicker__container {
+    display: flex;
+    position: relative;
+}
+
+.jdatepicker__input {
+    border-radius: .25rem 0 0 .25rem;
+}
+
+.jdatepicker__button {
+    border: solid .1rem #dadada;
+    border-left: none;
+    background-color: #f9f9f9;
+    border-radius: 0 .25rem .25rem 0;
+}
+
+.jdatepicker__button i {
+    color: #252525;
+    font-size: 1.25rem;
+}
+
+.jdatepicker {
+    display: none;
+    position: absolute;
+	top: 2.25rem;
+	width: 20rem;
+	border: solid .1rem #dadada;
+	border-radius: .25rem;
+
+    background-color: white;
+    z-index: 99999;
+}
+
+.jdatepicker.open {
+    display: block;
+}
+
+.jdatepicker.reverse {
+    top: unset;
+    bottom: 2.25rem;
+}
+
+.jdatepicker__header {
+	display: flex;
+	align-items: center;
+
+	padding: .5rem .5rem;
+}
+
+.jdatepicker__header button {
+	display: flex;
+	align-items: center;
+
+	width: 12.5%;
+
+	border: none;
+	border-radius: .25rem;
+
+	background-color: white;
+	color: #252525;
+
+	font-size: 1.25rem;
+
+	text-align: center;
+	margin: 0 .25rem;
+}
+
+.jdatepicker__header button:first-child {
+	margin-left: 0;
+}
+
+.jdatepicker__header button:last-child {
+	margin-right: 0;
+}
+
+.jdatepicker__header h2 {
+	text-align: center;
+	width: 50%;
+	margin: 0;
+	padding: .25rem .5rem;
+	font-size: 1rem;
+}
+
+.jdatepicker__grid {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.jdatepicker__grid th,
+.jdatepicker__grid td {
+	border-radius: .25rem;
+	text-align: center;
+}
+
+.jdatepicker__grid td {
+	padding: .25rem 0;
+}
+
+.jdatepicker__grid td:focus,
+.jdatepicker__grid td:hover {
+    background-color: #f0f0f0;
+}
+
+.jdatepicker__grid td.disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+.jdatepicker__grid td.today {
+    background-color: #72ffc9;
+}
+
+.jdatepicker__grid td.today:focus,
+.jdatepicker__grid td.today:hover {
+    background-color: #61eeb8;
+}

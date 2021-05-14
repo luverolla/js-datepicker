@@ -1,0 +1,2 @@
+src/vendor/* linguist-vendored
+dist/vendor/* linguist-vendored
