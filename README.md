@@ -47,13 +47,13 @@ Options for the `input` tag:
 While focus remains on datepicker component, the following keyboard shortcuts can be used:
 | keys | description |
 | ---- | ----------- |
-| <kbd>Enter</kbd> | select date |
-| <kbd>ArrowLeft</kbd> | previous day |
-| <kbd>ArrowRight</kbd> | next day |
-| <kbd>ArrowDown</kbd> | next month |
-| <kbd>ArrowUp</kbd> | previous month |
-| <kbd>Shift</kbd> + <kbd>ArrowDown</kbd> | next year |
-| <kbd>Shift</kbd> + <kbd>ArrowUp</kbd> | previous year |
+| <kbd>Enter</kbd> | select current date and close picker |
+| <kbd>ArrowLeft</kbd> | current date steps one day back |
+| <kbd>ArrowRight</kbd> | current date steps one day forward |
+| <kbd>ArrowDown</kbd> | current date steps one month forward |
+| <kbd>ArrowUp</kbd> | current date steps one month back |
+| <kbd>PageDown</kbd> | current date steps one year forward |
+| <kbd>PageUp</kbd> | current date steps one year back |
 
 ## Events
 Plugin provides custom events to intercept changes either in structure or in value.
