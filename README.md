@@ -38,7 +38,7 @@ Options for the `input` tag:
 | -------------- | ----------| ----------- | ------- |
 | `disabled` | `boolean` | tells if datepicker is disabled | `false` |
 | `data-locale` | `string` | lowercase two-letters ISO language code | `'en'` |
-| `data-format` | `string` | date format, should contain a separator (like `/`, or `-`) and these letters:<ul><li>`d` for "day"</li><li>`m` for "month"</li><li>`y` for "year"</li> | `'y-m-d'` |
+| `data-format` | `string` | date format, should contain a separator (like `/`, or `-`)<br/>and the letters `d` (for "day"), `m` (for "month") and `y` (for "year") | `y-m-d` |
 | `data-mindate` | `string` | the smallest available date. Must respect the format specified by `data-format`.<br/>If not provided, no lower bounds are applied | `null` |
 | `data-maxdate` | `string` | the biggest available date. Must respect the format specified by `data-format`.<br/>If not provided, no upper bounds are applied | `null` |
 | `data-disableddates` | `string` | disabled dates separated by a comma (`,`). Must respect the format specified by `data-format`.<br/>If not provided, no dates will be disabled (Unless `data-mindate` and/or `data-maxdate` are set) | `null` |
