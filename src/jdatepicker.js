@@ -683,6 +683,8 @@ class JDatePicker
         this.focusEvents();
         this.mouseEvents();
         this.inputEvents();
+
+        window.dispatchEvent(new CustomEvent("jdatepicker-create"));
 	}
 }
 
